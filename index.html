@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Stap is the easiest css-framework due to its generic code">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Stap - css framework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <header>
+        <nav class="navbar">
+            <div class="left">Stap</div>
+            <div class="mid">
+                <ul>
+                    <li><a href="index.html" onmouseover="hovered()">Home</a></li>
+                    <li><a href="#" onmouseover="hovered()">About</a></li>
+                    <li><a href="#" onmouseover="hovered()">Blog</a></li>
+                    <li><a href="#" onmouseover="hovered()">Docs</a></li>
+                    <li><a href="#" onmouseover="hovered()">Services</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="themechanger">
+                    <button onclick="theem()">Theme</button>
+                </div>
+                <a href="https://github.com" target="_blank">
+                    <i class="fa-brands fa-github" style="color: #ffffff; font-size: 2rem;"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="list">
+            <button class="dbtn" onclick="darktheme()">Dark</button>
+            <button class="lbtn" onclick="lighttheme()">light</button>
+        </div>
+    </header>
+    <div class="main">
+        <h1 class="top-heading">Build responsive and stylish websites with stap without leaving your html file</h1>
+        <p class="bottom-heading">Stap is an awesome css framework which uses html classes like <span
+                class="class">width-10</span>&nbsp;,<span class="class">flex</span>&nbsp;,<span
+                class="class">padding-23</span> and requires no installation</p>
+        <button class="start"><a href="guide.html">Get Started</a></button>
+    </div>
+    <div class="cplush">
+        <div class="html">
+            <p id="heading">html</p>
+            <div class="numbers">
+                <p class="1">1</p>
+                <p class="2">2</p>
+                <p class="3">3</p>
+                <p class="4">4</p>
+                <p class="5">5</p>
+                <p class="6">6</p>
+                <p class="7">7</p>
+                <p class="8">8</p>
+                <p class="9">9</p>
+                <p class="10">10</p>
+                <p class="11">11</p>
+                <p class="12">12</p>
+                <p class="13">13</p>
+                <p class="14">14</p>
+                <p class="15">15</p>
+                <p class="16">16</p>
+                <p class="17">17</p>
+                <p class="18">18</p>
+            </div>
+            <div class="html-code">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta
+                name="viewport"content="width=device-<br>&nbsp;&nbsp;&nbsp;&nbsp;width,initial-scale=1.0"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;document&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &nbsp;&nbsp;&lt;div class="flex"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;p class='none'&gt;Give stap a try!&lt;/p&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="padding-8"&gt;I like Stap!&lt;/button&gt;<br>
+                &nbsp;&nbsp;&lt;/div&gt;<br>
+                &nbsp;&nbsp;&lt;a href='https://stap.com' class='textdecoration-<br>&nbsp;&nbsp;none'&gt;Go to
+                Stap&lt;/a&gt;<br>
+                &lt;script src='Stap.com/cdn'&gt;&lt;/script&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+            </div>
+        </div>
+        <div class="css">
+            <p id="heading">css</p>
+            <div class="numbers">
+                <p class="1">1</p>
+                <p class="2">2</p>
+                <p class="3">3</p>
+                <p class="4">4</p>
+                <p class="5">5</p>
+                <p class="6">6</p>
+                <p class="7">7</p>
+                <p class="8">8</p>
+                <p class="9">9</p>
+                <p class="10">10</p>
+                <p class="11">11</p>
+                <p class="12">12</p>
+                <p class="13">13</p>
+                <p class="14">14</p>
+                <p class="15">15</p>
+                <p class="16">16</p>
+                <p class="17">17</p>
+                <p class="18">18</p>
+            </div>
+            <div class="css-code">
+                .flex&nbsp;{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;display: flex;<br>
+                }<br><br>
+
+                .padding-8&nbsp;{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;padding: 8px;<br>
+                }<br><br>
+
+                .textdecoration-none&nbsp;{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-decoration: none;<br>
+                }<br><br>
+            </div>
+        </div>
+    </div>
+    <div class="html-heading-bg"></div>
+    <div class="css-heading-bg"></div>
+    <div class="testimonials">
+        <div class="founder">
+            <p class="name">Hammad Tahir</p>
+            <p class="job">Founder of Stap</p>
+            <p class="description">I have written thousands of lines of code to make the Stap's website and the link you
+                add in your html to use Stap.Stap needs a try by almost every developer in the world.</p>
+        </div>
+        <div class="others">
+            <div class="google">
+                <p class="name">Google</p>
+                <p class="description">Stap is the easiest framework to learn for developers.</p>
+            </div>
+            <div class="microsoft">
+                <p class="name">Microsoft</p>
+                <p class="description">We've added Stap in our job list after using it for some time.</p>
+            </div>
+            <div class="apple">
+                <p class="name">Apple</p>
+                <p class="description">From now,we will also use Stap to make our web applications.</p>
+            </div>
+            <div class="meta">
+                <p class="name">Meta</p>
+                <p class="description">All our web apps use Stap more than other css frameworks.</p>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <h1 class="heading">Some features of Stap:</h1>
+        <p class="explanation">Stap requires no installation,only a link is required for using Stap.The unit that stap
+            uses is pixels that makes it easy to learn.It have an awesome documentation,which is also a good advantage
+            to developers that are learning Stap.It also have hover and focus like states.You can make a fully fledged
+            frontend by only using Stap.</p>
+    </div>
+    <div class="ide">
+        <h1 class="heading">Our ide:</h1>
+        <p class="clearance">We've provided an ide that also supports Stap.</p>
+        <div class="url"><a href="https://ide.stap.com">Go to our
+         ide</a></div>
+    </div>
+    <div class="frameworks">
+        <h1 class="headingof">Using JavaScript frameworks?No problem!</h1>
+        <h2 class="supporting">Stap supports:</h2>
+        <div class="icons">
+            <i class="fa-brands fa-react" style="color: #009dff;" id="react"></i>
+            <i class="fa-brands fa-vuejs" style="color: #00a876;" id="vue"></i>
+            <i class="fa-brands fa-angular" style="color: #cc0014;" id="angular"></i>
+        </div>
+    </div>
+    <footer>
+        <div class="logo">
+            <p class="text">Stap</p>
+        </div>
+        <p class="copyright">Copyright &copy; Stap developers ltd.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

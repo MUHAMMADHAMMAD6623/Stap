@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 3467px;
+    background-image: linear-gradient(100deg, rgb(1, 1, 17), rgb(1, 1, 24), rgb(3, 3, 36), rgb(4, 4, 48), rgb(5, 5, 51), rgb(7, 7, 56), rgb(8, 8, 61), rgb(7, 7, 61))
+}
+
+::-webkit-scrollbar {
+    background: rgb(73, 73, 73);
+    width: 13px;
+    height: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(131, 131, 131);
+    width: 8px;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(141, 141, 141);
+}
+
+.navbar {
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .left {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(82, 82, 158);
+}
+
+.navbar .mid ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+}
+
+.navbar .mid ul li {
+    margin: 20px 15px;
+}
+
+.navbar .mid ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar .mid ul li a:hover {
+    color: rgb(82, 82, 158);
+}
+
+.navbar .right {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar .right i {
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+
+.navbar .right .themechanger button {
+    padding: 8px;
+    background: rgb(41, 41, 126);
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar .right .themechanger button:hover {
+    background: rgb(23, 23, 138);
+}
+
+header .list {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1044px;
+    top: 49px;
+}
+
+header .list button {
+    width: 65px;
+    background: rgb(10, 10, 95);
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+header .list .dbtn {
+    border-bottom: 2px solid black;
+    display: block;
+    visibility: hidden;
+}
+
+header .list button:hover {
+    background: rgb(25, 25, 104);
+}
+
+header .list .lbtn {
+    display: block;
+    visibility: hidden;
+}
+
+.main {
+    margin: auto;
+    text-align: center;
+    margin-top: 160px;
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .top-heading {
+    color: white;
+    font-size: 3rem;
+}
+
+.main .bottom-heading {
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
+.main .bottom-heading span {
+    color: rgb(10, 46, 163);
+}
+
+.main .start {
+    background: rgb(7, 7, 134);
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.main .start:hover {
+    background: rgb(34, 34, 131);
+}
+
+.main .start a {
+    text-decoration: none;
+    color: white;
+}
+
+.cplush {
+    width: 99%;
+    height: 550px;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 330px;
+}
+
+
+.cplush .html .html-code {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 17px;
+    right: 20px;
+    font-size: 1.2rem;
+}
+
+.cplush .html{
+    display: flex;
+    height: 505px;
+    width: 550px;
+    border: 2px solid rgb(0, 0, 0);
+    background: linear-gradient(145deg,rgb(30, 0, 65),rgb(35, 0, 75),rgb(40, 0, 85),rgb(45, 0, 97),rgb(50, 0, 107));
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cplush .html .numbers{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    height: 475px;
+    color: rgb(82, 82, 82);
+    padding-right: 7px;
+}
+
+.cplush .html p#heading{
+    position: relative;
+    left: 28px;
+    top: -7px;
+    z-index: 2;
+}
+
+.html-heading-bg{
+    width: 554px;
+    height: 28px;
+    background: black;
+    z-index: 1;
+    position: relative;
+    bottom: 230px;
+    left: 37px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.html .numbers p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.html .html-code{
+    line-height: 27px;
+}
+
+.cplush .css{
+    display: flex;
+    width: 550px;
+    height: 518px;
+    border: 1px solid black;
+    background: linear-gradient(145deg,rgb(30, 0, 65),rgb(35, 0, 75),rgb(40, 0, 85),rgb(45, 0, 97),rgb(50, 0, 107));
+    border-radius: 10px;
+    position: relative;
+    top: -12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cplush .css .css-code{
+    line-height: 27px;
+    position: relative;
+    top: 30px;
+    font-size: 1.2rem;
+}
+
+.cplush .css .numbers{
+    position: relative;
+    top: 26px;
+    right: 20px;
+    color: rgb(82, 82, 82);
+}
+
+.cplush .css .numbers p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.cplush .css #heading{
+    font-size: 1.1rem;
+    position: relative;
+    top: 3px;
+    left: 28px;
+    z-index: 2;
+}
+
+.css-heading-bg{
+    width: 552px;
+    height: 30px;
+    background: black;
+    z-index: 1;
+    position: relative;
+    bottom:259px;
+    left: 665px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.testimonials{
+    position: relative;
+    top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.others{
+    display: flex;
+}
+
+.testimonials .founder{
+    width: 400px;
+    height: 200px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 26px;
+    background: rgb(1, 1, 36);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.testimonials .founder .name{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 600;
+}
+
+.testimonials .founder .description{
+    color: rgb(182, 182, 182);
+    width: 350px;
+}
+
+.testimonials .founder .job{
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.testimonials .others div{
+    margin: 10px;
+    color: white;
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(1, 1, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.testimonials .others div .description{
+    width: 200px;
+    font-size: 1.2rem;
+    color: rgb(182, 182, 182);
+}
+
+.testimonials .others div .name{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.testimonials .others{
+    position: relative;
+    top: 60px;
+}
+
+.features{
+    color: white;
+    position: relative;
+    top: 700px;
+    left: 40px;
+    text-align: center;
+    width: 1200px;
+}
+
+.features .heading{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+
+.features .explanation{
+    font-size: 1.3rem;
+    color: rgb(153, 153, 153);
+    position: relative;
+    top: 15px;
+}
+
+.ide{
+    color: white;
+    position: relative;
+    top: 900px;
+    left: 410px;
+    width: 450px;
+    height: 225px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(1, 1, 36);
+    border-radius: 10px;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.ide .clearance{
+    position: relative;
+    top: 6px;
+}
+
+.frameworks{
+    position: relative;
+    top: 1100px;
+    text-align: center;
+}
+
+.frameworks .headingof{
+    color: white;
+    font-size: 2.6rem;
+}
+
+.frameworks .supporting{
+    font-size: 2.2rem;
+    color: white;
+}
+
+.frameworks .icons i{
+    font-size: 3rem;
+    margin: 0px 13px;
+    position: relative;
+    top: 25px;
+}
+
+footer{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    position: relative;
+    top: 1320px;
+}
+
+footer .logo .text{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+footer .copyright{
+    font-size: 1.2rem;
+}
+
+.frameworks .icons{
+    width: 220px;
+    height: 100px;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: relative;
+    left: 520px;
+    top: 20px;
+}
